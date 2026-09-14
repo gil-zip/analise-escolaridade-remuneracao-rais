@@ -25,7 +25,7 @@ data/processed/
 
 ## Recorte da análise
 
-A análise considera o mercado de trabalho formal brasileiro no
+A análise considera o mercado de trabalho formal do estado de São Paulo no
 ano-base de 2025, com foco na relação entre:
 
 - escolaridade;

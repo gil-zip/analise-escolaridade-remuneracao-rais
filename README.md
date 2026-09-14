@@ -15,17 +15,17 @@ Trabalho final desenvolvido para a disciplina de Ciência de Dados.
 
 Decisões relacionadas à qualificação profissional dependem da compreensão da associação entre nível de escolaridade e remuneração no mercado de trabalho.
 
-Este projeto investiga essa relação utilizando dados do mercado de trabalho formal brasileiro.
+Este projeto investiga essa relação utilizando dados do mercado de trabalho formal do estado de São Paulo.
 
 ## Pergunta de pesquisa
 
-**Como o nível de escolaridade está associado à remuneração dos trabalhadores formais brasileiros e como essa associação varia entre os setores de atividade econômica?**
+**Como o nível de escolaridade está associado à remuneração dos trabalhadores formais do estado de São Paulo e como essa associação varia entre os setores de atividade econômica?**
 
 ## Objetivos
 
 ### Objetivo geral
 
-Analisar a associação entre escolaridade e remuneração no mercado de trabalho formal brasileiro, verificando se essa relação varia entre diferentes setores de atividade econômica.
+Analisar a associação entre escolaridade e remuneração no mercado de trabalho formal paulista, verificando se essa relação varia entre diferentes setores de atividade econômica.
 
 ### Objetivos específicos
 
