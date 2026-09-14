@@ -1,0 +1,32 @@
+# Ambiente virtual
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Dados brutos
+data/raw/*
+
+# Manter a pasta no Git
+!data/raw/.gitkeep
+
+# Arquivos grandes
+*.7z
+*.zip
+*.csv
+*.txt
+*.comt
