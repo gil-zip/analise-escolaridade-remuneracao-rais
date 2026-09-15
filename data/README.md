@@ -1,35 +1,46 @@
 # Dados
 
-Este diretório contém os dados utilizados no projeto.
-
 ## Fonte
 
-Relação Anual de Informações Sociais (RAIS), ano-base 2025.
+Os dados utilizados neste projeto são provenientes da Relação Anual de
+Informações Sociais (RAIS) 2025, disponibilizada pelo Ministério do
+Trabalho e Emprego.
 
-Fonte: Ministério do Trabalho e Emprego (MTE).
+A análise utiliza os microdados de vínculos do estado de São Paulo.
+
+Arquivo original:
+
+`RAIS_VINC_PUB_SP.COMT`
 
 ## Dados brutos
 
-Os microdados originais da RAIS não são versionados neste
-repositório devido ao tamanho dos arquivos.
+Os dados originais são armazenados localmente em:
 
-Os arquivos devem ser armazenados localmente em:
+`data/raw/`
 
-data/raw/
+O arquivo não é versionado no GitHub devido ao seu tamanho.
 
 ## Dados processados
 
-Os dados tratados utilizados nas análises serão armazenados em:
+O notebook `notebooks/01_preparacao_dados.ipynb` realiza a preparação
+da base original e gera:
 
-data/processed/
+`data/processed/rais_sp_2025.parquet`
 
-## Recorte da análise
+A base processada contém apenas os vínculos utilizados na população
+analítica do projeto.
 
-A análise considera o mercado de trabalho formal do estado de São Paulo no
-ano-base de 2025, com foco na relação entre:
+O arquivo Parquet também não é versionado devido ao seu tamanho e pode
+ser reproduzido executando o notebook de preparação dos dados.
 
-- escolaridade;
-- remuneração;
-- setor de atividade econômica.
+## População analítica
 
-A unidade de análise é o vínculo empregatício formal.
+São considerados vínculos:
+
+- ativos em 31/12/2025;
+- com remuneração média nominal positiva;
+- com escolaridade classificável;
+- com atividade econômica classificável.
+
+A unidade de análise é o vínculo formal de trabalho, e não o trabalhador
+individual.

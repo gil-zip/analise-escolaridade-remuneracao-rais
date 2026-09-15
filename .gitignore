@@ -26,6 +26,8 @@ data/processed/*
 
 # Manter a pasta no Git
 !data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/README.md
 
 # Arquivos grandes
 *.7z
