@@ -6,3 +6,4 @@ scipy
 statsmodels
 jupyter
 ipykernel
+pyarrow

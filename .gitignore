@@ -21,6 +21,9 @@ Thumbs.db
 # Dados brutos
 data/raw/*
 
+# Dados processados
+data/processed/*
+
 # Manter a pasta no Git
 !data/raw/.gitkeep
 
