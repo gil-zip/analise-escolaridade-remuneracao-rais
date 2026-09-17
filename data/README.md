@@ -12,6 +12,32 @@ Arquivo original:
 
 `RAIS_VINC_PUB_SP.COMT`
 
+Data de download: 14/09/2026.
+
+## Como obter os dados
+
+O acesso aos microdados é feito via FTP:
+
+`ftp://ftp.mtps.gov.br/pdet/microdados/`
+
+Navegadores modernos (Chrome, Edge, Brave, Firefox) não suportam mais o
+protocolo FTP. O acesso pode ser feito por:
+
+- Windows Explorer: `Win + E`, colar o endereço acima na barra de
+  endereços e pressionar Enter;
+- um cliente FTP dedicado (ex.: FileZilla), caso o método acima falhe.
+
+O arquivo é disponibilizado compactado em `.7z`. Após o download, deve
+ser extraído com o WinRAR ou 7-Zip e o resultado movido para
+`data/raw/`, mantendo o nome `RAIS_VINC_PUB_SP.COMT` diretamente dentro
+dessa pasta (sem subpastas).
+
+## Formato do arquivo
+
+- Delimitador: `,` (campos entre aspas duplas — padrão CSV)
+- Encoding: latin1
+- Confirmado via inspeção da primeira linha do arquivo após extração.
+
 ## Dados brutos
 
 Os dados originais são armazenados localmente em:
